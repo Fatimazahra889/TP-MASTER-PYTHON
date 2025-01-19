@@ -1,0 +1,17 @@
+{
+    "etudiant1": {
+        "nom": "Alice",
+        "age": 20,
+        "ville": "LA"
+    },
+    "etudiant2": {
+        "nom": "Bob",
+        "age": 22,
+        "ville": "NY"
+    },
+    "etudiant3": {
+        "nom": "Charlie",
+        "age": 21,
+        "ville": "SA"
+    }
+}
