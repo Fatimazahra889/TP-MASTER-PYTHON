@@ -12,11 +12,16 @@ class TestConversion(unittest.TestCase):
         self.assertAlmostEqual(dollars_to_dirhams(1), 10.05)
         self.assertAlmostEqual(dollars_to_dirhams(0), 0)
         self.assertAlmostEqual(dollars_to_dirhams(100), 1005)
-        
+        print(dollars_to_dirhams(1))
+        print(dollars_to_dirhams(0))
+        print(dollars_to_dirhams(100))
     def test_meters_to_kilometers(self):
         self.assertAlmostEqual(meters_to_kilometers(1000), 1)
         self.assertAlmostEqual(meters_to_kilometers(0), 0)
         self.assertAlmostEqual(meters_to_kilometers(500), 0.5)
+        print(meters_to_kilometers(1000))
+        print(meters_to_kilometers(0))
+        print(meters_to_kilometers(500))
         
 
 if __name__ == '__main__':
